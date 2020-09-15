@@ -1,0 +1,52 @@
+
+/* *********************************** */
+/* *** Estilos SOLO para index.html *** */
+/* *********************************** */
+
+.zonaSuperior
+{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.logotipo
+{
+    flex: 4 1 100px;
+    font-size: 4vmax;
+    margin-bottom: 4vmin;
+
+    font-weight: bolder;
+
+}
+
+.navegacion
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+}
+
+
+.elementoNavegacion
+{
+    min-height: 50px;
+    min-width: 200px;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+
+    margin-bottom: 5vmin;
+
+}
+

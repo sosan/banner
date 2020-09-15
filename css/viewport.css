@@ -1,0 +1,105 @@
+
+
+
+body
+{
+    background-color: brown;
+
+    /*
+    En caso de utilizar rem o em 
+    se modificara el tamaño desde este tamaño inicial
+     */
+    font-size: 100vmin;
+    
+}
+
+.banner
+{
+    background: url("../img/desktop/fondoTeamGee.jpg") center/cover;
+
+    
+
+    /* height: 100vh; */
+    
+    /* VMIN => la parte estrecha del dispositivo */
+    /* VMAX => la parte ancha del dispositivo */
+    /* font-size: 20vmin; */
+
+    height: 20vmin;
+    box-sizing: content-box;
+
+
+}
+
+
+h1
+{
+    font-size: 10vmin;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    flex-grow: 2;
+    font-weight: bolder;
+
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    /* flex: 1 1 50%; */
+
+
+}
+
+.logotipo
+{
+    color:white;
+    background-color: black;    
+
+    font-size: 10vmin;
+    padding: 20px;
+    flex-grow: 3;
+    /*
+    
+    Conseguiremos que no se achate o se enconja flex-shrink: 0,
+    con el 1 se vuelve flexible
+    
+    */
+    /* flex-shrink: 0;  */
+    /* flex-grow: 1; */
+    /* flex-basis: 50%; */
+    font-weight: bolder;
+
+    
+}
+
+nav
+{
+    background-color: blue;
+    flex-grow: 1;
+    display: flex;
+    /* flex-shrink: 0; */
+    /* justify-content: space-between; */
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    
+    flex-grow: 1;
+    flex-basis: 100vmin;
+
+
+}
+
+

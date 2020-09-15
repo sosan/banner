@@ -1,0 +1,69 @@
+html
+{
+    background-color: black;
+    color:white;
+
+}
+
+
+.contenedor
+{
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 50px;
+
+    background-color: white;
+
+}
+
+.izquierda
+{
+    /* flex-basis: 1; */
+    flex-grow: 1;
+    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.derecha
+{
+    flex-basis: 50px;
+    background-color: brown;
+
+}
+
+
+.contenedorAbajo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+
+
+}
+
+
+.primero
+{
+    background-color: red;
+    flex-grow: 1;
+}
+
+.segundo
+{
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.tercero
+{
+    background-color: blue;
+    flex-grow: 1;
+}
