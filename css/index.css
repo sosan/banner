@@ -15,9 +15,9 @@
 .logotipo
 {
     flex: 4 1 100px;
-    font-size: 4vmax;
+    flex-basis: 400px;
     margin-bottom: 4vmin;
-
+    font-size: 5vmax;
     font-weight: bolder;
 
 }
