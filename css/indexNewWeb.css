@@ -1,17 +1,49 @@
 html
 {
-    padding: 20px;
-
+    /* width: 100vw; */
 
 }
 
+.zonaSuperior
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.zonaLogo
+{
+    flex-wrap: wrap;
+    flex-grow: 2;
+    text-align: center;
+
+    font-weight: bolder;
+}
 
 .zonaNavegacion
 {
-   display: flex;
-   justify-content: space-between;
-   align-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    flex-grow: 1;
+}
+
+
+.zonaSocial
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-right: 20px;
 }
 
 
@@ -22,19 +54,183 @@ html
 
 }
 
-.
 
 .buttonFake
 {
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
-    
-    padding-top: 14px;
-    padding-bottom: 14px;
+    /* flex-basis: 100%; */
+   
 
 
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
 
 
 }
+
+
+
+.imagenSocial
+{
+    width: 50px;
+
+
+
+}
+
+
+.contenido
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titulo
+{
+    color:white;
+    font-family: "Mont-SemiBold", sans-serif;
+    font-size: 4vmax;
+}
+
+.botonReserva
+{
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+
+    font-family: "Mont-SemiBold", sans-serif;
+    font-size: 2vmax;
+
+}
+
+.segundaFila
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.tarjeta
+{
+    flex-basis: 35vmin;
+    height: 40vmin;
+    width: 40vmin;
+    background-color: white;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    margin-right: 4vmin;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+.primeraCajaFormulario
+{
+    /* border-bottom: 1px solid black; */
+    /* background-color: green; */
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 15px;
+
+}
+
+.cajaFormulario
+{
+    margin-bottom: 10px;
+    background-color: transparent;
+    
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    height: 50px;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.cajaContenidoFijo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+
+
+.inputTexto
+{
+    width: 78%;
+    font-size: 18px;
+    height: 37px;
+    border: 0px;
+    /* border-bottom: 1px solid black; */
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+.iconoNombre
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.zonaTextoConfirmacion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.textoConfirmacion
+{
+    width: 100%;
+
+}
+
+
+.iconoConfirmacion
+{
+    width: 50px;
+    height: 50px;
+}
+
+.botonEnviarReserva
+{
+
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    /* padding-top: 1%; */
+    /* padding-bottom: 1%; */
+    border: 2px solid black;
+    font-family: "Mont-SemiBold", sans-serif;
+    font-size: 1rem;
+    min-height: 48px;
+    width: 100%;
+
+
+}
+
+
