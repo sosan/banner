@@ -1,11 +1,19 @@
-RECUERDAR ELEMENTOS DE CSS
+RECORDATORIO ELEMENTOS DE CSS
 
-Profe ha enumerado una serie de elemtnos que utlizaremos nada / poco / mucho / prohibido usarlos.
-IMAGENES 
+Profe ha enumerado una serie de elementos que utlizaremos nada / poco / mucho / prohibido usarlos.
+
+PDF esta en notion - Material
+
+### HTML5 —>
+[html5-cheatsheet-emezeta.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18bb3201-88ed-4e15-bbb2-92fb19e2ef6e/html5-cheatsheet-emezeta.pdf)
+
+### CSS3 —>
+[css3-cheatsheet-emezeta.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17ff3e0b-d1ab-41e8-92b2-002a3fa34c56/css3-cheatsheet-emezeta.pdf)
+
+IMAGENES CON COMENTARIOS DEL PROFE Y LEYANDA (hecho mal):
 https://github.com/sosan/banner/blob/master/img/desktop/css_cheatsheet.png
 https://github.com/sosan/banner/blob/master/img/desktop/css_cheatsheet2.png
 
-(Leyenda Mal explicado)
 
 Atomic Design
 ====================
