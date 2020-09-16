@@ -8,5 +8,7 @@
 <a href="https://sosan.github.io/banner/indexTienda.html" target="_blank">Web Tienda desde github pages(Desarrollo)</a><br>
 
 
-
+Explicacion
+=============
+https://github.com/sosan/banner/blob/master/explicacion.md
 
