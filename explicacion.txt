@@ -2,17 +2,10 @@ RECUERDAR ELEMENTOS DE CSS
 
 Profe ha enumerado una serie de elemtnos que utlizaremos nada / poco / mucho / prohibido usarlos.
 IMAGENES 
-css_cheatsheet.png
-css_cheatsheet2.png
+https://github.com/sosan/banner/blob/master/img/desktop/css_cheatsheet.png
+https://github.com/sosan/banner/blob/master/img/desktop/css_cheatsheet2.png
 
-
-
-
-
-
-
-
-
+(Leyenda Mal explicado)
 
 Atomic Design
 ====================
@@ -74,7 +67,6 @@ Esta tecnica desde figma podemos crear un componente (padre), realizar una o var
 Si cambiamos al componente (padre), si cambiamos los componentes instanciados (componentes hijos), 
 pero al mismo tiempos esas instancias conservaran sus propias modificaciones si no interfieren con las modificaciones hechas en el componente padre.
 
-VISUALIZAR:
-video/explicacionfigma.mp4
-
+LINK BAJAR VIDEO:
+https://github.com/sosan/banner/blob/master/video/explicacionfigma.mp4
 
