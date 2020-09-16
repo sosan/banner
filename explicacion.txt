@@ -1,3 +1,19 @@
+RECUERDAR ELEMENTOS DE CSS
+
+Profe ha enumerado una serie de elemtnos que utlizaremos nada / poco / mucho / prohibido usarlos.
+IMAGENES 
+css_cheatsheet.png
+css_cheatsheet2.png
+
+
+
+
+
+
+
+
+
+
 Atomic Design
 ====================
 
@@ -46,6 +62,8 @@ active => clickear y matener click sobre un elemento.
 focus  => se utiliza en formularios para rellenar un campo se lanza el evento
 
 Font awesome tiene una liberia hover.css donde permite realizar pequeñas animaciones con hover, active y focus.
+Ejemplo:
+https://codepen.io/toaster99/pen/BpgzQR
 
 
 
