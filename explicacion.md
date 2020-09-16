@@ -75,6 +75,6 @@ Esta tecnica desde figma podemos crear un componente (padre), realizar una o var
 Si cambiamos al componente (padre), si cambiamos los componentes instanciados (componentes hijos), 
 pero al mismo tiempos esas instancias conservaran sus propias modificaciones si no interfieren con las modificaciones hechas en el componente padre.
 
-LINK BAJAR VIDEO:
+LINK BAJAR VIDEO (click "download" en la pagina de github):
 https://github.com/sosan/banner/blob/master/video/explicacionfigma.mp4
 
