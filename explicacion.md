@@ -52,6 +52,9 @@ Pagina => 3 plantillas, etc...
 
 Cuando realizamos un proyecto grande, cuanod queramos realizar cambios, se puede volver una locura el organizar los elementos sin utilizar el diseño atomico.
 
+Diseño Atomico Figma (Editable):
+https://www.figma.com/file/EqsuezoVXbsZFZSGFfCtyf/Dise%C3%B1o-Atomico?node-id=0%3A1
+
 
 CONTROL ESTADOS DEL USUARIO
 ===================================
