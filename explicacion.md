@@ -69,7 +69,6 @@ https://codepen.io/toaster99/pen/BpgzQR
 
 
 FIGMA- CREACION DE COMPONENTES E INSTANCIAS DE ESOS COMPONENTES.
-Desde figma creacion de componentes y crear instancias de esos componentes.
 ================================================================================
 Esta tecnica desde figma podemos crear un componente (padre), realizar una o varias instancias de ese componente (hijos).
 Si cambiamos al componente (padre), si cambiamos los componentes instanciados (componentes hijos), 
