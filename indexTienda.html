@@ -48,14 +48,13 @@
 <body>
     <!-- *** ESTRUCTURA SEMÁNTICA *** -->
     <!-- Header (encabezado de la página, zona superior) -->
-    <header class="zonaSuperior anchoFijo">
-        <section class="">
-            <ul class="primeraFila resetul">
+    <header class="zonaSuperior">
+        <section >
+            <ul class="primeraFila ">
                 <li class="zonaBuscador">
                     <form action="" method="post">
-                        <label for="">
+                        <label for="busqueda">
                             <input type="search" class="inputBusqueda" placeholder="Busqueda..." value="" name="busqueda" autocomplete="off">
-
                         </label>
                     </form>
                 </li>
@@ -69,30 +68,29 @@
             </ul>
         </section>
 
-        <section class="segundaFila">
-            <ul>
+        <section class="">
+            <ul class="segundaFila">
                 <li class="zonaHamburguesa">
-                    <img src="" alt="hamburguesa">
-
+                    <img class="hamburguesa" src="./img/desktop/blankOscuro.png" alt="hamburguesa">
                 </li>
                 <li class="zonaNavegacion">
-                    <nav class="">
+                    <nav class="grow1">
                         <ul>
-                            <li class="elementoZonaNavegacion">
+                            <li class="elementoZonaNavegacion grow1">
                                 <a href="./index.html" class="linkElementoZonaNavegacion">HOME</a>
                             </li>
-                            <li class="elementoZonaNavegacion">
+                            <li class="elementoZonaNavegacion grow1">
                                 <a href="./ropa.html" class="linkElementoZonaNavegacion">ROPA</a>
 
                             </li>
-                            <li class="elementoZonaNavegacion">
+                            <li class="elementoZonaNavegacion grow1">
                                 <a href="./zapatos.html" class="linkElementoZonaNavegacion">ZAPATOS</a>
 
                             </li>
-                            <li class="elementoZonaNavegacion">
+                            <li class="elementoZonaNavegacion grow1">
                                 <a href="./cosmeticos.html" class="linkElementoZonaNavegacion">COSMETICOS</a>
                             </li>
-                            <li class="elementoZonaNavegacion">
+                            <li class="elementoZonaNavegacion grow1">
                                 <a href="./ofertas.html" class="linkElementoZonaNavegacion">OFERTAS</a>
                             </li>
                         </ul>
@@ -101,13 +99,19 @@
                 <li class="zonaRedesSociales">
                     <ul class="ulRedesSociales">
                         <li class="elementoRedesSociales">
-                            <img class="iconoRedesSociales" src="./img/svg/facebook.svg" alt="Imagen Facebook">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img class="iconoRedesSociales" src="./img/svg/facebook.svg" alt="Imagen Facebook">
+                            </a>
                         </li>
                         <li class="elementoRedesSociales">
-                            <img class="iconoRedesSociales" src="./img/svg/twitter.svg" alt="Imagen Twitter">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img class="iconoRedesSociales" src="./img/svg/twitter.svg" alt="Imagen Twitter">
+                            </a>
                         </li>
                         <li class="elementoRedesSociales">
-                            <img class="iconoRedesSociales" src="./img/svg/instagram.svg" alt="Imagen Instagram">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img class="iconoRedesSociales" src="./img/svg/instagram.svg" alt="Imagen Instagram">
+                            </a>
                         </li>
                     </ul>
                 </li>
